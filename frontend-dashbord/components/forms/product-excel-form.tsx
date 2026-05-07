@@ -12,6 +12,7 @@ import {
   Pencil,
   Check,
   X,
+  Package,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -68,6 +69,19 @@ function EditableProductRow({ product, onSave }: { product: ProdutoScrapingRaw, 
   if (isEditing) {
     return (
       <tr className="border-b border-border bg-muted/30 transition-colors duration-300">
+        <td className="px-3 py-2 w-12">
+          {product.imagemUrl ? (
+            <img
+              src={product.imagemUrl}
+              alt={product.nomeProduto}
+              className="w-10 h-10 rounded-md object-cover ring-1 ring-border"
+            />
+          ) : (
+            <div className="w-10 h-10 rounded-md bg-muted flex items-center justify-center">
+              <Package className="w-5 h-5 text-muted-foreground/50" />
+            </div>
+          )}
+        </td>
         <td className="px-2 py-2">
           <Input
             value={editedData.nomeProduto}
@@ -124,6 +138,19 @@ function EditableProductRow({ product, onSave }: { product: ProdutoScrapingRaw, 
 
   return (
     <tr className="group border-b border-border last:border-0 hover:bg-muted/30 transition-colors duration-200">
+      <td className="px-3 py-2 w-12">
+        {product.imagemUrl ? (
+          <img
+            src={product.imagemUrl}
+            alt={product.nomeProduto}
+            className="w-10 h-10 rounded-md object-cover ring-1 ring-border transition-transform duration-200 group-hover:scale-150 group-hover:shadow-lg group-hover:z-10 group-hover:relative"
+          />
+        ) : (
+          <div className="w-10 h-10 rounded-md bg-muted flex items-center justify-center">
+            <Package className="w-5 h-5 text-muted-foreground/50" />
+          </div>
+        )}
+      </td>
       <td className="px-4 py-3 font-medium">{product.nomeProduto}</td>
       <td className="px-4 py-3 text-right tabular-nums text-muted-foreground">
         {isExisting ? `+${product.unidadeAdicionada || product.unidade}` : product.unidade}
@@ -289,6 +316,7 @@ export function ProductExcelForm() {
                         <table className="w-full text-sm">
                           <thead>
                             <tr className="bg-muted/50 border-b border-border">
+                              <th className="w-12 px-3 py-2.5"></th>
                               <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground">Nome</th>
                               <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground">Unidade</th>
                               <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground">Código de Barras</th>
@@ -331,6 +359,7 @@ export function ProductExcelForm() {
                         <table className="w-full text-sm">
                           <thead>
                             <tr className="bg-muted/50 border-b border-border">
+                              <th className="w-12 px-3 py-2.5"></th>
                               <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground">Nome</th>
                               <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground">Adicionado</th>
                               <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground">Código de Barras</th>
@@ -342,6 +371,19 @@ export function ProductExcelForm() {
                           <tbody>
                             {produtosExistentes.map((product: ProdutoScrapingRaw, index: number) => (
                               <tr key={index} className="border-b border-border last:border-0">
+                                <td className="px-3 py-2 w-12">
+                                  {product.imagemUrl ? (
+                                    <img
+                                      src={product.imagemUrl}
+                                      alt={product.nomeProduto}
+                                      className="w-10 h-10 rounded-md object-cover ring-1 ring-border"
+                                    />
+                                  ) : (
+                                    <div className="w-10 h-10 rounded-md bg-muted flex items-center justify-center">
+                                      <Package className="w-5 h-5 text-muted-foreground/50" />
+                                    </div>
+                                  )}
+                                </td>
                                 <td className="px-4 py-3 font-medium">{product.nomeProduto}</td>
                                 <td className="px-4 py-3 text-right tabular-nums text-muted-foreground">+{product.unidadeAdicionada || product.unidade}</td>
                                 <td className="px-4 py-3 text-right tabular-nums text-muted-foreground">{product.codigoBarra}</td>

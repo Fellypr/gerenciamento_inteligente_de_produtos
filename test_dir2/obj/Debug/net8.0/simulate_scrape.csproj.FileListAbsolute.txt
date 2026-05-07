@@ -1,0 +1,15 @@
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/bin/Debug/net8.0/simulate_scrape
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/bin/Debug/net8.0/simulate_scrape.deps.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/bin/Debug/net8.0/simulate_scrape.runtimeconfig.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/bin/Debug/net8.0/simulate_scrape.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/bin/Debug/net8.0/simulate_scrape.pdb
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.GeneratedMSBuildEditorConfig.editorconfig
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.AssemblyInfoInputs.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.AssemblyInfo.cs
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.csproj.CoreCompileInputs.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.sourcelink.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/refint/simulate_scrape.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.pdb
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/simulate_scrape.genruntimeconfig.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir2/obj/Debug/net8.0/ref/simulate_scrape.dll

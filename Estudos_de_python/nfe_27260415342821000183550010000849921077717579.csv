@@ -1,7 +1,7 @@
-﻿NomeProduto,Unidade,PrecoVista,PrecoRevista,PrecoAdquirido,CodigoBarra
-SIAGE MASC CAP ACELERA CRESC V3 250g,10,43.78,57.11,38.07,7891033535064
-SIAGE COND ACELERA CRESC V3 200ml,10,31.27,40.79,27.19,7891033535019
-SIAGE COND LIS INT V3 200ml,10,30.03,39.16,26.11,7891033535057
-SIAGE SHAMP LIS INT V3 250ml,10,28.14,36.7,24.47,7891033535040
-SIAGE SHAMP ACELERA CRESC V3 250ml,10,30.03,39.16,26.11,7891033535026
-EUD MAKE PLT SOMBRAS TURBO 8g,1,39.02,50.89,33.93,7891033899807
+﻿NomeProduto,Unidade,PrecoVista,PrecoRevista,PrecoAdquirido,CodigoBarra,ImagemURL
+SIAGE MASC CAP ACELERA CRESC V3 250g,10,43.78,57.11,38.07,7891033535064,https://carrefourbr.vtexassets.com/arquivos/ids/160997685/da2f6ecf94234ab4bfa574bdda1cad54.jpg?v=638543149740770000
+SIAGE COND ACELERA CRESC V3 200ml,10,31.27,40.79,27.19,7891033535019,https://down-br.img.susercontent.com/file/br-11134207-81z1k-mdys9f0b9pfma9
+SIAGE COND LIS INT V3 200ml,10,30.03,39.16,26.11,7891033535057,https://m.media-amazon.com/images/I/41qumjCtLnL._AC_SY300_SX300_QL70_ML2_.jpg
+SIAGE SHAMP LIS INT V3 250ml,10,28.14,36.7,24.47,7891033535040,https://m.media-amazon.com/images/I/61RTx3xDWSL._AC_SL1500_.jpg
+SIAGE SHAMP ACELERA CRESC V3 250ml,10,30.03,39.16,26.11,7891033535026,https://m.media-amazon.com/images/I/61t72BIfN6L.jpg
+EUD MAKE PLT SOMBRAS TURBO 8g,1,39.02,50.89,33.93,7891033899807,"http://res.cloudinary.com/beleza-na-web/image/upload/w_297,c_lpad,w_600,h_315/g_south_west,l_label-free-shipping,x_10,y_-60,o_0/v1/imagens/product/E89980/5a70a549-707f-45ec-a006-0f0797be2042-e89980-palette-quarteto-sombras-turbo-8g-1.jpg"

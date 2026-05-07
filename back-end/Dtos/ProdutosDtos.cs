@@ -9,4 +9,5 @@ public class ProdutosDto
     public decimal PrecoRevista { get; set; }
     public decimal PrecoVista { get; set; }
     public string? Status { get; set; }
+    public string? ImagemUrl { get; set; }
 }

@@ -34,7 +34,8 @@ public class SqlProdutoRepository : IProdutoRepository
                     PrecoAdquirido = Convert.ToDecimal(reader["preco_adquirido"]),
                     PrecoRevista = Convert.ToDecimal(reader["preco_revista"]),
                     Unidade = Convert.ToInt32(reader["unidade"]),
-                    PrecoVista = Convert.ToDecimal(reader["preco_adquirido"])
+                    PrecoVista = Convert.ToDecimal(reader["preco_adquirido"]),
+                    ImagemUrl = reader["url_imagem"].ToString(),
                 };
             }
             return null;
@@ -51,7 +52,7 @@ public class SqlProdutoRepository : IProdutoRepository
         await connection.OpenAsync();
         try
         {
-            const string query = @"INSERT INTO ""ProdutosCadastrados"" (codigo_de_barra, produto, preco_unitario, preco_revista, unidade,preco_adquirido) VALUES (@codigo,@produto,@preco_unitario,@preco_revista,@unidade,@preco_adquirido)";
+            const string query = @"INSERT INTO ""ProdutosCadastrados"" (codigo_de_barra, produto, preco_unitario, preco_revista, unidade,preco_adquirido, url_imagem) VALUES (@codigo,@produto,@preco_unitario,@preco_revista,@unidade,@preco_adquirido, @url_imagem)";
             using var command = new NpgsqlCommand(query, connection);
             command.Parameters.Add(new NpgsqlParameter("@codigo", produto.CodigoBarra));
             command.Parameters.Add(new NpgsqlParameter("@produto", produto.NomeProduto));
@@ -59,6 +60,7 @@ public class SqlProdutoRepository : IProdutoRepository
             command.Parameters.Add(new NpgsqlParameter("@preco_unitario", produto.PrecoVista));
             command.Parameters.Add(new NpgsqlParameter("@preco_revista", produto.PrecoRevista));
             command.Parameters.Add(new NpgsqlParameter("@unidade", produto.Unidade));
+            command.Parameters.Add(new NpgsqlParameter("@url_imagem", produto.ImagemUrl));
             
             return await command.ExecuteNonQueryAsync();
 

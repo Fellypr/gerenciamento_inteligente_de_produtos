@@ -14,6 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
 from bs4 import BeautifulSoup
+from buscar_imagem import buscar_imagem_produto
 
 def consultar_nfe(chave_acesso: str):
     """
@@ -253,13 +254,17 @@ def consultar_nfe(chave_acesso: str):
             except ValueError:
                 qtd_float = 0
 
+            # Busca imagem do produto via Google Custom Search API
+            imagem_url = buscar_imagem_produto(nome)
+
             produtos.append({
                 "NomeProduto": nome,
                 "Unidade": qtd_float,
                 "PrecoVista": round(vu_float * 1.15, 2),
                 "PrecoRevista": round(vu_float * 1.50, 2),
                 "PrecoAdquirido": vu_float,
-                "CodigoBarra": ean if ean else "Não encontrado"
+                "CodigoBarra": ean if ean else "Não encontrado",
+                "ImagemURL": imagem_url
             })
             
         # 5. Saída

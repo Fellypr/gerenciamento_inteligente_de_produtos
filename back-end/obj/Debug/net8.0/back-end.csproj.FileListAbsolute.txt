@@ -36,3 +36,4 @@
 /home/fellype/Documentos/Projetos/adicionarProductFullstack/back-end/obj/Debug/net8.0/back-end.pdb
 /home/fellype/Documentos/Projetos/adicionarProductFullstack/back-end/obj/Debug/net8.0/back-end.genruntimeconfig.cache
 /home/fellype/Documentos/Projetos/adicionarProductFullstack/back-end/obj/Debug/net8.0/ref/back-end.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/back-end/obj/Debug/net8.0/back-end.sourcelink.json

@@ -17,6 +17,7 @@ export interface ProdutoScrapingRaw {
   precoRevista:number;
   precoVista:number;
   status?:string;
+  imagemUrl?: string;
 }
 
 export type ProductExcelResponse = ProdutoScrapingRaw[];

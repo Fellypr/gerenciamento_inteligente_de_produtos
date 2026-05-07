@@ -1,6 +1,6 @@
 import { promises } from "dns";
 import { api } from "./api";
-import type { CodigoDeAcesso, ProductExcelResponse, ProdutoScrapingRaw} from "@/types/product";
+import type { CodigoDeAcesso, ProductExcelResponse, ProdutoScrapingRaw } from "@/types/product";
 
 export const productServices = {
     postProductExcel: async (codigoDeAcesso: CodigoDeAcesso): Promise<ProdutoScrapingRaw[]> => {
@@ -15,7 +15,7 @@ export const productServices = {
                 throw new Error(data);
             }
         }
-        
+
         return data;
     },
     postValidaProduto: async (produtos: any[]): Promise<ProdutoScrapingRaw[]> => {
@@ -29,6 +29,7 @@ export const productServices = {
             precoRevista: item.precoRevista,
             precoVista: item.precoVista,
             status: item.status,
+            imagemUrl: item.imagemUrl,
         }));
     },
     postFinalizaImportacao: async (produtos: ProdutoScrapingRaw[]): Promise<string> => {

@@ -1,0 +1,15 @@
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/bin/Debug/net8.0/test_deserialization
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/bin/Debug/net8.0/test_deserialization.deps.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/bin/Debug/net8.0/test_deserialization.runtimeconfig.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/bin/Debug/net8.0/test_deserialization.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/bin/Debug/net8.0/test_deserialization.pdb
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.GeneratedMSBuildEditorConfig.editorconfig
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.AssemblyInfoInputs.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.AssemblyInfo.cs
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.csproj.CoreCompileInputs.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.sourcelink.json
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/refint/test_deserialization.dll
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.pdb
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/test_deserialization.genruntimeconfig.cache
+/home/fellype/Documentos/Projetos/adicionarProductFullstack/test_dir/obj/Debug/net8.0/ref/test_deserialization.dll

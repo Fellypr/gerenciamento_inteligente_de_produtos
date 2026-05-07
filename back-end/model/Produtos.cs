@@ -15,5 +15,6 @@ namespace back_end.model
         public decimal PrecoRevista { get; set; }
         public decimal PrecoAdquirido { get; set; }
         public decimal PrecoVista { get; set; }
+        public string? ImagemUrl { get; set; }
     }
 }

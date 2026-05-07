@@ -94,7 +94,7 @@ namespace back_end.services
                         produto.NomeProduto = produtoExistente.NomeProduto;
                         produto.PrecoAdquirido = produtoExistente.PrecoAdquirido;
                         produto.PrecoRevista = produtoExistente.PrecoRevista;
-                        produto.Unidade = produtoExistente.Unidade + produto.Unidade;
+                        produto.Unidade = produtoExistente.Unidade;
                         produto.UnidadeAdicionada = produto.Unidade;
                         produto.PrecoVista = produtoExistente.PrecoVista;
                     }
